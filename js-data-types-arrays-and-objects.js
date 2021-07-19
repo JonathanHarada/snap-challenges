@@ -19,7 +19,7 @@ let person1 = {
     code: function() {console.log('develop website')}
 }
 console.log(person1)
-console.log(person.status)
+console.log(person1.status)
 person1.code()
 
 let person2 = {
