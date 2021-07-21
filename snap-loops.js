@@ -13,7 +13,10 @@ const persons = [{"id":1,"name":"Leanne Graham","username":"Bret","email":"Since
 // const revisedArray = removeCompanyFromPerson(persons)
 // console.log("revised array", revisedArray)
 
-
+const functionExpresion = function (person){
+    delete person.company
+}
+console.log(functionExpresion)
 
 
 
